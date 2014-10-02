@@ -1,0 +1,29 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "MyController",
+            "menu_btn_register"
+        ],
+        "name": "MyApp",
+        "stores": [
+            "MyArrayStore"
+        ],
+        "views": [
+            "mainLayout",
+            "MyLoginPanel",
+            "MyNavigationView1",
+            "Mytest",
+            "html",
+            "MyCarousel",
+            "HTMLPanel"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

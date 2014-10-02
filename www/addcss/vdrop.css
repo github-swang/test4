@@ -1,0 +1,36 @@
+/*html, body {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+*/
+
+/*
+.x-fullscreen {
+    position: absolute !important
+}
+   opacity: 0.9;
+   
+.v2menu
+*/
+
+.left_menu {
+
+    /*color: #fff; 按钮字体颜色*/
+
+    background: rgba(4, 52, 67, 0.9) !important;
+
+    /*border-radius:0; 按钮圆角*/
+
+    /*  padding:10px;  */
+
+}
+
+.buttonCls {
+    background: #043443;
+    color: #ffffff;
+    font-size: 14px;
+
+    border: 2px solid;
+    border-color: red;
+}

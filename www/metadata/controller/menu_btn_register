@@ -1,0 +1,57 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "menu_btn_register"
+    },
+    "name": "MyController1",
+    "designerId": "2ac17cca-7099-4323-be69-7068f02f58a7",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "menu_Btn_reg",
+                "selector": "test"
+            },
+            "name": "menu_Btn_reg",
+            "designerId": "b825ac5f-1326-4242-8f0e-490970674993"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "test",
+                "designer|targetType": "Ext.Button",
+                "fn": "onMyPanelActivate",
+                "implHandler": [
+                    "Ext.Ajax.request({",
+                    "        //local path of your html file",
+                    "        url: 'index.html',",
+                    "        success : function(response) {",
+                    "           Ext.getCmp('MyApp.view.MyPanel').setHtml(response.responseText);",
+                    "        },",
+                    "        failure : function(response) {",
+                    "            var text = response.responseText;",
+                    "            Ext.Msg.alert('Error', text, Ext.emptyFn);            }",
+                    "    });"
+                ],
+                "name": "tap"
+            },
+            "name": "onMyPanelActivate",
+            "designerId": "27200de4-ac3a-4c27-b89b-a8d8d051a83f"
+        }
+    ]
+}

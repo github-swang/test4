@@ -1,0 +1,72 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController"
+    },
+    "name": "MyController",
+    "designerId": "87ab025a-3b95-4239-9baf-c2338477ead0",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "navView",
+                "selector": "navview"
+            },
+            "name": "navView",
+            "designerId": "0d6ef8a6-5239-4358-9a39-cb9383194d3f"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "item"
+                ],
+                "fn": "createDetailsView",
+                "implHandler": [
+                    "var details = Ext.create('MyApp.view.DetailsView', {",
+                    "    title: item",
+                    "});",
+                    "",
+                    "this.getNavView().push(details);",
+                    ""
+                ]
+            },
+            "name": "createDetailsView",
+            "designerId": "2265e539-54a4-40bb-8f5f-1262afae2f8a"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#list",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "this.createDetailsView(record.get('name'));"
+                ],
+                "name": "itemtap"
+            },
+            "name": "onListItemTap",
+            "designerId": "5ad14e52-74c1-470f-90b8-69230428cb27"
+        }
+    ]
+}

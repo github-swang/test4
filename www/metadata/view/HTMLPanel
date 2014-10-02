@@ -1,0 +1,65 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "HTMLPanel",
+        "requires": [
+            "Ext.Ajax"
+        ],
+        "url": "null"
+    },
+    "name": "MyPanel",
+    "designerId": "22777929-2b55-41d0-a74e-03f22dec750d",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "url",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "element": null,
+                "fn": "onPanelActivate",
+                "implHandler": [
+                    "Ext.Ajax.request({",
+                    "",
+                    "    //we should use the getter for our new `url` config",
+                    "",
+                    "    useDefaultXhrHeader: false,",
+                    "    ",
+                    "    url: this.getUrl(),",
+                    "",
+                    "    method: \"GET\",",
+                    "",
+                    "    success: function(response, request) {",
+                    "",
+                    "    //We should use the setter for the HTML config for this",
+                    "",
+                    "        newActiveItem.setHtml(response.responseText);",
+                    "    },",
+                    "",
+                    "    failure: function(response, request) {",
+                    "",
+                    "        newActiveItem.setHtml(\"failed -- response: \" + response.responseText);",
+                    "    }",
+                    "});"
+                ],
+                "name": "activate"
+            },
+            "name": "onPanelActivate",
+            "designerId": "f5f75d71-c61e-4366-b748-002f7f2af811"
+        }
+    ]
+}

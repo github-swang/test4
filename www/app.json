@@ -1,0 +1,81 @@
+{
+    "builds": {
+        "web": {"default": true},
+        "native": {
+            "packager": "phonegap",
+            "phonegap" : {
+                "config": {
+                    // Uncomment the line below and add the platform you wish to build for
+                    //"platform": "ios",
+
+                    // Uncomment and Set this line to true to enable PhoneGap Remote Building.
+                    // To properly use this you must set the following properties in your local.properties file (if this file does not exist create it in your app root)
+                    // phonegap.remote.username=myname@domain.com
+                    // phonegap.remote.password=mys3cr3tp@ssw0rd
+                    //"remote":false,
+
+                    "id": "jp.mantubiz.MyApp",
+                    "name": "MyApp"
+                }
+            }
+        }
+    },
+
+                
+   "name": "MyApp",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "path": "addcss/vdrop.css"
+      },
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "resources/css/sencha-touch-c88bbb0f-ec45-48fc-81e6-bda13a631315.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup",
+      "addcss/vdrop.css"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [
+      "LoginPanel"
+   ],
+   "id": "8b7b195b-fd3f-4bad-a03a-4b4354c035a6"
+}

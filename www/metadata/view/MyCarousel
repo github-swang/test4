@@ -1,0 +1,113 @@
+{
+    "type": "Ext.carousel.Carousel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "carview",
+        "designer|userClassName": "MyCarousel",
+        "id": "carouselAtv"
+    },
+    "name": "MyCarousel",
+    "designerId": "46ebdf95-78ec-479b-8bd9-b7d90e852ac2",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Page1",
+                "style": "background-color:#043443"
+            },
+            "name": "MyContainer",
+            "designerId": "376dd26e-3f6a-4d8b-bd49-5c1881d45f4e",
+            "cn": [
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": true,
+                        "html": "商会财富网",
+                        "style": "color:#ffffff"
+                    },
+                    "name": "MyLabel",
+                    "designerId": "ea6ef41f-2208-4c42-8b3d-dd74f5c81de5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Page2"
+            },
+            "name": "MyContainer1",
+            "designerId": "f3530757-7057-4fad-9076-6dfeb170fc6a",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": true,
+                        "height": 201,
+                        "mode": "img",
+                        "src": "images/logo.png"
+                    },
+                    "name": "MyImg",
+                    "designerId": "f6996fe6-8d46-4a07-900b-c4b99f4f93ad"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Page3"
+            },
+            "name": "MyContainer2",
+            "designerId": "7844f1b6-66d1-4ce3-b371-5241b210ea90",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": false,
+                        "docked": "bottom",
+                        "id": "startButton",
+                        "itemId": "mybutton",
+                        "margin": "0 auto 50 auto",
+                        "text": "马上启程",
+                        "width": 100
+                    },
+                    "name": "MyButton",
+                    "designerId": "eb17c034-f9cc-49b6-b10f-ecaf3f019fcf"
+                }
+            ]
+        }
+    ]
+}

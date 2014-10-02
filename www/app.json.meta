@@ -1,0 +1,1 @@
+{"_comment":"Please don't edit. This is Architect data.","name":"MyApp","resources":["addcss/vdrop.css"],"requires":["LoginPanel"],"classpath":null,"css":[{"path":"addcss/vdrop.css"},{"update":"delta","platform":["phone","tablet","desktop"],"theme":"Default","path":"resources/css/sencha-touch-c88bbb0f-ec45-48fc-81e6-bda13a631315.css"}],"js":[]}

@@ -1,0 +1,22 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "html",
+        "id": "html_container",
+        "title": "Details!"
+    },
+    "name": "MyPanel1",
+    "designerId": "862eee1e-835f-45e0-94fc-bd4260003dd0",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ]
+}

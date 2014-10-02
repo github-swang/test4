@@ -1,0 +1,59 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|uiInterfaceName": "dark",
+        "designer|userClassName": "DetailsView",
+        "padding": 10,
+        "style": "background:#043443;opacity:0.7;",
+        "title": "Details!",
+        "ui": "dark"
+    },
+    "name": "MyPanel",
+    "designerId": "8f02bb5c-43c6-406a-8b53-ff4ede969d20",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": "",
+                "height": 100,
+                "src": "images/logo.png"
+            },
+            "name": "MyImg",
+            "designerId": "6331e3e2-5327-4d12-8c3c-0805ac2622d5"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "centered": true,
+                "designer|displayName": "text",
+                "html": "<p style=\"color: #fff\">商会作为介于政府与企业之间的一种自律性民间组织,承担着政府和企业在发展市场经济中所不能完 成或不能高效完成的社会职能,它的存在即是市场经济发展的必然,也是中国体制改革的客观要求。     </p>",
+                "left": null,
+                "margin": 15
+            },
+            "name": "MyContainer10",
+            "designerId": "6c5ee361-74ec-4d47-a147-76b2adbf4f00"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "navview",
+        "designer|userClassName": "MyNavigationView1",
+        "id": "listPro",
+        "title": "Lists!"
+    },
+    "name": "MyNavigationView1",
+    "designerId": "443b4920-e1c5-4049-a4f5-cdf3126450ee",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "list",
+                "store": "MyArrayStore",
+                "title": "项目信息（test）"
+            },
+            "name": "MyList",
+            "designerId": "edb01bfe-b020-4746-9494-ea6634d9169c",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<div>项目 {name}</div>"
+                        ]
+                    },
+                    "name": "itemTpl",
+                    "designerId": "28880e54-edf7-4890-87fe-44a9683aa466"
+                }
+            ]
+        }
+    ]
+}

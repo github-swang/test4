@@ -1,0 +1,193 @@
+{
+    "type": "Ext.Menu",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyMenu",
+        "margin": null,
+        "padding": null,
+        "style": null
+    },
+    "name": "MyMenu",
+    "designerId": "49f03501-95f1-46e7-920d-988754bd838d",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": null,
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "info",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "项目信息",
+                "ui": "plain"
+            },
+            "name": "MyButton10",
+            "designerId": "26951ae3-70e1-4a01-8b58-a0c1c1be0f5c"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": "soild",
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "favorites",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "资本信息",
+                "ui": "plain"
+            },
+            "name": "MyButton8",
+            "designerId": "3c6c684d-28f3-49c2-b346-849ba0708b58"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "action",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "项目追踪",
+                "ui": "plain"
+            },
+            "name": "MyButton12",
+            "designerId": "3d4950dd-4ef8-4f0a-8c5b-da0fa577c075"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "search",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "智能匹配",
+                "ui": "plain"
+            },
+            "name": "MyButton20",
+            "designerId": "5cc0bc2f-0bfe-40ec-b058-b81693fcfb52"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": null,
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "arrow_right",
+                "id": "menu_btn_reg",
+                "style": "color: red;font-size: 16px;",
+                "text": "注册",
+                "ui": "plain"
+            },
+            "name": "MyButton14",
+            "designerId": "95b4b4b9-131a-4663-9088-f63e9340817d",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "button",
+                            "e"
+                        ],
+                        "fn": "handler",
+                        "implHandler": [
+                            "var HTMLPanel = Ext.create('MyApp.view.HTMLPanel', {",
+                            "",
+                            "    scrollable: 'vertical',",
+                            "",
+                            "    //url: 'http://www.mantubiz.co.jp/'",
+                            "",
+                            "    //url: 'addcss/test.html'",
+                            "    url:'../html/forms_wizard.html'",
+                            "});",
+                            "",
+                            "// Add the new HTMLPanel into the viewport so it is visible",
+                            "",
+                            "Ext.Viewport.removeAll();",
+                            "Ext.Viewport.add(HTMLPanel);"
+                        ]
+                    },
+                    "name": "handler",
+                    "designerId": "100599f1-99c7-4c97-aa90-dbfe38fb0e3d"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "compose",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "登录",
+                "ui": "plain"
+            },
+            "name": "MyButton15",
+            "designerId": "59de384b-b43a-4a22-85a5-3897d80a2c52"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "user",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "用户信息",
+                "ui": "plain"
+            },
+            "name": "MyButton11",
+            "designerId": "70560cbd-7f61-4f27-b55e-0738ecff43d4"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "home",
+                "style": "color: #ffffff;font-size: 16px;",
+                "text": "关于我们",
+                "ui": "plain"
+            },
+            "name": "MyButton13",
+            "designerId": "fa58d4c1-c07c-47ac-b7e2-1f3b174b300c"
+        }
+    ]
+}

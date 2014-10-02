@@ -1,0 +1,410 @@
+{
+    "type": "sencha.login.LoginPanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyLoginPanel"
+    },
+    "name": "MyLoginPanel",
+    "designerId": "21e14c64-a44c-406c-9928-6ced26207bfc",
+    "cn": [
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom"
+            },
+            "name": "MyTabBar",
+            "designerId": "d98df940-16a5-4f3a-82ad-c30f69cf7216"
+        },
+        {
+            "type": "Ext.carousel.Carousel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "About",
+                "iconCls": "info",
+                "title": "About"
+            },
+            "name": "MyCarousel1",
+            "designerId": "ec0c25d3-7843-4910-9f78-648c41d584ef",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MyContainer",
+                    "designerId": "2ea7bd41-f08f-41cf-a10e-a959ad25a1b1",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "html": "About 1"
+                            },
+                            "name": "MyLabel",
+                            "designerId": "9c0066de-1bf2-4768-93fc-34290c86bf50"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MyContainer1",
+                    "designerId": "6090067b-ee32-4d46-a8fc-90454ade926f",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "html": "About 2"
+                            },
+                            "name": "MyLabel1",
+                            "designerId": "6d38cbdf-508b-468a-bdd8-010f8e183417"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "MyContainer3",
+                    "designerId": "e1b83b65-a3f4-4ed2-93d5-13ab1994d561",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "html": "About 3"
+                            },
+                            "name": "MyLabel2",
+                            "designerId": "b15bf352-fd42-4d9b-a102-e657517b1e2f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Register",
+                "iconCls": "user",
+                "itemId": "register",
+                "title": "Register"
+            },
+            "name": "MyFormPanel",
+            "designerId": "e8783a9e-d8a0-4f97-bd39-a75f4dc50a35",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "required",
+                        "margin": 5,
+                        "title": "Required"
+                    },
+                    "name": "MyFieldSet",
+                    "designerId": "b1d931fd-0174-42b8-9faa-3c306668dd88",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Email",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Email",
+                                "labelWidth": 100,
+                                "name": "email",
+                                "placeHolder": "email@example.com"
+                            },
+                            "name": "MyEmailField",
+                            "designerId": "9195f568-d8f7-4f14-9a7c-75ff9a575ccd"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Password",
+                                "labelWidth": 100,
+                                "name": "password"
+                            },
+                            "name": "MyPasswordField",
+                            "designerId": "0235b8e4-a40e-49fc-9db7-9f4df8692263"
+                        },
+                        {
+                            "type": "Ext.field.Password",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Confirm",
+                                "labelWidth": 100,
+                                "name": "confirm"
+                            },
+                            "name": "MyPasswordField1",
+                            "designerId": "bdc6b45d-f9df-4dcd-92b2-5c451d1e7e9c"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "other",
+                        "margin": "-5 5 0 5",
+                        "title": "Other Information"
+                    },
+                    "name": "MyFieldSet1",
+                    "designerId": "7120ca16-c0ef-4e87-bf4d-38ea8920b235",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Name",
+                                "labelWidth": 100,
+                                "name": "name"
+                            },
+                            "name": "MyTextField",
+                            "designerId": "aceea1c5-5bc5-4b7b-8d2d-16b7fc79bef3"
+                        },
+                        {
+                            "type": "Ext.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "label": "Address",
+                                "labelWidth": 100,
+                                "name": "address"
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "6b39ea17-2b56-4aa1-812f-50c26b07f535"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "confirm",
+                        "itemId": "registerBtn",
+                        "margin": 20,
+                        "text": "Register",
+                        "ui": "confirm"
+                    },
+                    "name": "MyButton9",
+                    "designerId": "f0d225d7-a5a8-41c1-8a33-3def359339ff",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRegisterButtonTap",
+                                "implHandler": [
+                                    "var panel = button.up('formpanel'),",
+                                    "\tvalues = panel.getValues();",
+                                    "",
+                                    "panel.parent.fireEvent('register', panel, values);"
+                                ],
+                                "name": "tap"
+                            },
+                            "name": "onRegisterButtonTap",
+                            "designerId": "5c365f75-c0ed-45de-a7c9-ffbe6ad4607c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Login",
+                "iconCls": "action",
+                "itemId": "login",
+                "layout": "card",
+                "title": "Log in"
+            },
+            "name": "MyFormPanel1",
+            "designerId": "bbc48079-c433-414c-b2c1-043e66f64edb",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "center",
+                        "layout": "vbox"
+                    },
+                    "name": "MyContainer9",
+                    "designerId": "f308bbb1-25cb-4ee5-8c4c-3594856da2b0",
+                    "cn": [
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": 5
+                            },
+                            "name": "MyFieldSet2",
+                            "designerId": "cdd0548e-df9d-4e42-b36b-8a41fd742249",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Email",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Email",
+                                        "labelWidth": 100,
+                                        "name": "email",
+                                        "placeHolder": "email@example.com"
+                                    },
+                                    "name": "MyEmailField1",
+                                    "designerId": "5d57e0a0-da86-4320-8e3f-4c3ce042162a"
+                                },
+                                {
+                                    "type": "Ext.field.Password",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "Password",
+                                        "labelWidth": 100,
+                                        "name": "password"
+                                    },
+                                    "name": "MyPasswordField2",
+                                    "designerId": "3dbc5ef7-8d7c-4b72-b821-7379f7364653"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "confirm",
+                                "itemId": "loginBtn",
+                                "margin": 20,
+                                "text": "Log in",
+                                "ui": "confirm"
+                            },
+                            "name": "MyButton16",
+                            "designerId": "6f71d6d1-7e84-4b43-b150-3d28ddad3ce8",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onLoginButtonTap",
+                                        "implHandler": [
+                                            "var panel = button.up('formpanel'),",
+                                            "\tvalues = panel.getValues();",
+                                            "",
+                                            "panel.parent.fireEvent('login', panel, values);"
+                                        ],
+                                        "name": "tap"
+                                    },
+                                    "name": "onLoginButtonTap",
+                                    "designerId": "b6134c6b-344e-40fc-bd55-a485bf9c30ce"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

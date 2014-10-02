@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css",
+        "url": "addcss/vdrop.css"
+    },
+    "name": "css",
+    "designerId": "59769b2f-6411-4e7c-9246-160c444da7bd"
+}

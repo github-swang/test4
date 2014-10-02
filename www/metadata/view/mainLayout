@@ -1,0 +1,336 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "mainLayout",
+        "layout": "hbox",
+        "margin": null,
+        "style": "background: transparent url('./images/bg.jpg') no-repeat;background-size:100%;"
+    },
+    "name": "MyContainer1",
+    "designerId": "9b0e3543-dccf-4ac1-9fe4-7699606a3ba2",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "layout1-1",
+                "layout|flex": 1
+            },
+            "name": "MyContainer4",
+            "designerId": "be701b3d-6f8c-4485-a939-489e5bd7f58f",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "layoutMain",
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "height": "20%",
+                        "iconCls": "home",
+                        "style": "color:#ffffff;background-color: #043443; opacity:0.9;",
+                        "text": "菜单Menu",
+                        "ui": "plain",
+                        "width": ""
+                    },
+                    "name": "MyButton",
+                    "designerId": "1232d306-9c68-4594-bb5e-3085df4fd0b8",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "",
+                                    "",
+                                    "var menu1;",
+                                    "",
+                                    "menu1=Ext.create('MyApp.view.MyMenu');",
+                                    "",
+                                    "//Ext.Viewport.add(menu1);",
+                                    "",
+                                    "Ext.Viewport.toggleMenu(menu1);",
+                                    "",
+                                    "//Ext.Viewport.add(Ext.create('ComponentOverview.view.MyActionSheet321'));",
+                                    "",
+                                    "//menu1.show();",
+                                    "",
+                                    "",
+                                    "",
+                                    " Ext.Viewport.setMenu(menu1, {",
+                                    "     cls:'left_menu',",
+                                    "     side: 'left',",
+                                    "     cover:false   //菜单弹出：覆盖效果",
+                                    "     //reveal: true  菜单弹出：主界面可控效果",
+                                    " });",
+                                    "",
+                                    " Ext.Viewport.showMenu('left');",
+                                    "",
+                                    ""
+                                ]
+                            },
+                            "name": "handler",
+                            "designerId": "c1c243fc-41c5-4a3f-96bc-d7792f665c4b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "height": "50%",
+                        "style": "color:#ffffff;background-color:#042342; opacity:0.75;",
+                        "text": "注册•登录",
+                        "ui": "plain"
+                    },
+                    "name": "MyButton1",
+                    "designerId": "8eb516fd-d568-404b-ba71-a8118e2fb486"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "plain",
+                        "docked": null,
+                        "height": "30%",
+                        "style": "color:#ffffff;background-color:#045242; opacity:0.75;",
+                        "text": "17:58",
+                        "ui": "plain"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "6e6dfe92-03d4-48a4-8260-e5b406e25fd5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "layout1-2",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "name": "MyContainer5",
+            "designerId": "3ac1fa4b-07ec-4cf9-b771-4e39291e2bda",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer2",
+                    "designerId": "29d88ebc-0fa1-4bf8-8398-8d3018bed631",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "plain",
+                                "height": "100%",
+                                "iconAlign": "right",
+                                "iconCls": "arrow_right",
+                                "style": "color:#ffffff;background-color:#043442; opacity:0.45;",
+                                "text": "状况确认",
+                                "ui": "plain"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "7ff48590-9416-4257-a608-2d63ef6065f8",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "button",
+                                            "e"
+                                        ],
+                                        "fn": "handler",
+                                        "implHandler": [
+                                            "alert('制作中...');"
+                                        ]
+                                    },
+                                    "name": "handler",
+                                    "designerId": "a6d1a237-f372-48f2-af29-e818de833f0e"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer6",
+                    "designerId": "96cc57b6-76ec-45f0-af8e-0e70b963e075",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "plain",
+                                "height": "100%",
+                                "iconAlign": "right",
+                                "iconCls": "arrow_right",
+                                "style": "color:#ffffff;background-color:#043442; opacity:0.75;",
+                                "text": "项目信息",
+                                "ui": "plain"
+                            },
+                            "name": "MyButton4",
+                            "designerId": "1c5a5fa8-3d9d-4fde-8933-a157dc6000ef",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "button",
+                                            "e"
+                                        ],
+                                        "fn": "handler",
+                                        "implHandler": [
+                                            "Ext.Viewport.removeAll();",
+                                            "                  Ext.Viewport.add(Ext.create('MyApp.view.MyNavigationView1'));"
+                                        ]
+                                    },
+                                    "name": "handler",
+                                    "designerId": "50b13674-9d46-4511-83b8-6395b0c68cae"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer7",
+                    "designerId": "9c1b3d5c-e6bf-465c-a9cb-95235ddd46fe",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "plain",
+                                "height": "100%",
+                                "iconAlign": "right",
+                                "iconCls": "arrow_right",
+                                "style": "color:#ffffff;background-color:#043442; opacity:0.45;",
+                                "text": "最新消息",
+                                "ui": "plain"
+                            },
+                            "name": "MyButton5",
+                            "designerId": "e12e03e3-53d6-442c-9c24-3d8fea7ac9c7"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "name": "MyContainer8",
+                    "designerId": "62ea503e-3f24-4457-9dc9-a706ae17bf95",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "plain",
+                                "height": "100%",
+                                "iconCls": "user",
+                                "style": "color:#ffffff;background-color:#043442; opacity:0.75;",
+                                "text": "联系我们",
+                                "ui": "plain"
+                            },
+                            "name": "MyButton6",
+                            "designerId": "ee08851a-ea2a-4d40-9ae9-7541d5b14a45"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
